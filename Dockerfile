@@ -1,8 +1,9 @@
 ARG DOCKER_BASE
 FROM $DOCKER_BASE
 ARG DEVICE
-#Aenderung im Dockerfile hotfixes
+#Aenderung im Dockerfile hotfix
 #Änderung im Master dikker was geht ab eyy merge konflikt iz da
+#Noch eine Aenderung in diesem Dockerfile f-13
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -yq git cmake build-essential \
   libgl1-mesa-dev libsdl2-dev \
